@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #00703C, #000);
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  border: none;
+}
+
+.logo img {
+  border-radius: 10%;
+  width: 250px; /* Adjust this value to your desired size */
+  height: auto;
+  
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.contactInfo {
+  background-color: rgba(211, 211, 211, 0.2);
+  text-align: left;
+  width: 30%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  border-radius: 5%;
+}
+
+.contactInfo
+{
+    padding-top: 40px;
+}
+
+.contactInfo u1
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo ul li span .email 
+{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 29px;
+
+}
+.contactInfo ul li span .website 
+{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+.contactInfo ul li span .insta 
+{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+
+.contactInfo.education li
+{
+    margin-bottom: 15px;
+}
+.contactInfo.education h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo.education h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+.contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;  
+    font-size: 24px;
+    color: white;
+}
+
+#intro {
+  background-color: rgba(211, 211, 211, 0.2);
+  text-align: center;
+  padding: 50px 0;
+  width: 30%;
+  height: auto;
+  border-radius: 5%;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  position: relative;
+  right: 20%;
+}
+
+#intro img {
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 20px;
+  max-width: 100%;
+  border-radius: 20%;
+}
+
+#intro a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none; /* remove underline */
+}
+
+#intro button {
+  color: #fff;
+  background-color: rgba(211, 211, 211, 0.2);
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+#intro button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+
+section {
+  margin-bottom: 4rem;
+  background-color: rgba(211, 211, 211, 0.2);
+  border-radius: 12px;
+  
+}
+
+
+
+section h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+section li {
+  width: calc(33.33% - 1rem);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 4px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+}
+
+section li a {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+section li img {
+  width: 100%;
+  height: auto;
+}
+
+section li:hover img {
+  transform: scale(1.1);
+}
+
+section li h3 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+section p {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: rgba(185, 211, 202, 0.2);
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+section#projects a {
+  background-color: rgba(185, 211, 202, 0.2);
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+section#projects a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+
+section#resume a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+section#resume a:hover {
+  color: rgba(7, 136, 2, 0.66);
+}
+
+
+footer {
+  background-color: #1C1C1C;
+  padding: 1rem;
+  text-align: center;
+}
+
